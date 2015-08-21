@@ -11,14 +11,14 @@ $labels['dateformat'] = 'rrrr/mm/dd';
 $labels['and'] = 'i';
 $labels['autoresponder'] = 'Wakacje';
 
-$messages = array();
-$messages['dateformatinconsistency'] = 'Date format is inconsistent';
-$messages['entervalidmonth'] = 'Enter a valid month.';
-$messages['entervalidday'] = 'Enter a valid day.';
-$messages['enterfordigityear'] = 'Enter four digit year between';
-$messages['entervaliddate'] = 'Enter a valid date.';
-$messages['dateinpast'] = 'Date not in future. Expiration will be disabled!';
-$messages['subjectempty'] = 'Please enter a subject';
-$messages['demoaccount'] = 'This is a Demo Account. Away message is disallowed.';
+$messages                            = array();
+$messages['dateformatinconsistency'] = 'Nieprawidłowy format daty';
+$messages['entervalidmonth']         = 'Wprowadź poprawny miesiąc.';
+$messages['entervalidday']           = 'Wprowadź poprawny dzień.';
+$messages['enterfordigityear']       = 'Wprowadź czterocyfrowy rok';
+$messages['entervaliddate']          = 'Wprowadź prawidłową datę.';
+$messages['dateinpast']              = 'Ta data nie znajduje się w przyszłości. Data wygaśnięcia zostanie wyłączona!';
+$messages['subjectempty']            = 'Wprowadź temat';
+$messages['demoaccount']             = 'To konto testowe, autoodpowiedź jest niedostępna.';
 
 ?>
